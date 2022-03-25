@@ -1,3 +1,4 @@
-import torch
+import nltk
+from nltk.corpus import stopwords
 
-print(torch.__version__)
+print(stopwords.words('bengali'))
