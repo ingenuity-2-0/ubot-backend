@@ -1,0 +1,228 @@
+{
+   "intents":[
+      {
+         "tag":"about_cse",
+         "patterns":[
+            "Why should I study CSE ?",
+            "Why do I have to study CSE?",
+            "Why should I learn about CSE?",
+            "What is CSE ?"
+         ],
+         "responses":[
+            "CSE means Computer Science Engineering.Computer science is a dynamic and rapidly growing area that has become an integral part of the world that we live in today. Having a degree in this field will provide you with a deep understanding of theories and emerging technologies."
+         ]
+      },
+      {
+         "tag":"aboutcseuap",
+         "patterns":[
+            "Why to choise Uap For CSE.",
+            "Why CSE at UAP?"
+         ],
+         "responses":[
+            "The department of CSE, UAP is striving for a pioneer role in ICT through excellence in education, research and development towards preparing graduates as a global leader with quality education, innovative ideas, extra-curricular activities and collaboration between industry and academia."
+         ]
+      },
+      {
+         "tag":"about_ubot",
+         "patterns":[
+            "What is U-bot ?",
+            "What does U-bot mean?",
+            "What does U-bot stand for?"
+         ],
+         "responses":[
+            "It is a A.I Powerd Chat Bot.U-Bot stand for Uap Bot. "
+         ]
+      },
+      {
+         "tag":"admission_criteria",
+         "patterns":[
+            "How can I apply for Admission?",
+            "How can I apply to be admitted?",
+            "How do I apply for the program?",
+            "How do I apply to get in?"
+         ],
+         "responses":[
+            "Generally there are two tests with a gap of one month in between. Applicants are allowed to appear in one test only (except some reasonable cases, for which the authority will follow a thorough scrutiny). All exams are conducted within the two months window before the semester class starts. Detailed timing is circulated both in daily newspapers and in our website \u201cNOTICE\u201d link"
+         ]
+      },
+      {
+         "tag":"admission_international_student",
+         "patterns":[
+            "What is the admission criteria For international Students?",
+            "What are the admission requirements for international students?",
+            "What are the entrance requirements for international students?",
+            "What are the eligibility criteria for international students?",
+            "Is the application process the same for international students?",
+            "Is there a similar application process for international students?"
+         ],
+         "responses":[
+            "It is necessary for a prospective student from abroad to demonstrate commitment and readiness to operate in a different cultural context. The selection process is relatively similar, with options of submitting the necessary documents online. All documents must be translated in English and attested by legal authorities. The applicant must fulfill if the department asks for some special documents (i/e Portfolio, recommendation letter etc.) or interview (via Skype or telephone). For further information please contact directly to the links below.\r\n\r"
+         ]
+      },
+      {
+         "tag":"admission_reuirement_garudate",
+         "patterns":[
+            "What are the requirements to apply for CSE in graduate level?",
+            "What are the requirements to apply for CSE at graduate level?",
+            "What are your graduate CSE requirements?",
+            "What are the post-level CSE requirements?",
+            "What are the requirements of graduate CSEs?"
+         ],
+         "responses":[
+            "SSC, HSC & Graduation Requirements\r\nOne 1st class/ 1st Division\r\n50% Marks or CGPA 2.50 out of 4.00 in B. Sc Engineering\r\nMust not have 3rd Division/ class in any public examination"
+         ]
+      },
+      {
+         "tag":"admission_reuirement_undergarudate",
+         "patterns":[
+            "What are the requirements to apply for CSE in Undergraduate level?",
+            "What are the requirements to apply for CSE at undergraduate level?",
+            "What are your undergraduate CSE requirements?",
+            "What are the entry-level CSE requirements?",
+            "What are the requirements of undergraduate CSEs?"
+         ],
+         "responses":[
+            "Minimum GPA Requirements:\r\nTotal GPA in SSC & HSC = 7.50\r\nTotal GPA in O & A level=7.50\r\n(Candidates with minimum GPA of 2.5 in five subjects in O level and two subjects in A level).\r\n\r\nSubject Requirements:\r\nStudents must have Physics, Mathematics in HSC (or equivalent) and Chemistry either in SSC or HSC (or equivalent)."
+         ]
+      },
+      {
+         "tag":"admission_transfer_student",
+         "patterns":[
+            "What is the admission criteria For Transfer Students?",
+            "What are the admission requirements for transferred students?",
+            "What are the entrance requirements for transferred students?",
+            "What are the admission criteria for transferees?",
+            "What are the eligibility criteria for transferred students?",
+            "Is the application process the same for transfer students?",
+            "Is there a similar application process for transfer students?"
+         ],
+         "responses":[
+            "Credit transfer students from other universities are also considered for admission, however their application is considered case by case, taking into account their previous results and track record and also must pass the admission test if the department requires. The minimum GPA for a course is \u201cB\u201d to be considered as transferable. A transfer student must complete 50% of the required total credit hour in the university to be eligible for a degree from UAP.\n\nFor a student who has a study gap of more than two years prior to her/his application for admission is advised to contact directly to the admission office."
+         ]
+      },
+      {
+         "tag":"class_routine",
+         "patterns":[
+            "How do I find the CSE classroom routine?",
+            "Where can i find class routine of CSE ?",
+            "Where can I find the CSE classroom routine?"
+         ],
+         "responses":[
+            "Here you can find all the Class routine. Visit https://cse.uap-bd.edu/routine/classroutine/"
+         ]
+      },
+      {
+         "tag":"dept_academic_calender",
+         "patterns":[
+            "Where can I find an education calendar?",
+            "How do I find an academic calendar?",
+            "Where can I get an educational calendar?",
+            "academic calender ?"
+         ],
+         "responses":[
+            "Here you can find the academic Calender .Visit https://cse.uap-bd.edu/routine/academic/"
+         ]
+      },
+      {
+         "tag":"dept_faculty",
+         "patterns":[
+            "What are the faculty members of CSE?",
+            "Whom are the CSE faculty members?",
+            "Who are the CSE teachers?",
+            "Who are the CSE professors?",
+            "Who are CSE's academic staff?",
+            "Who are the faculty at CSE?"
+         ],
+         "responses":[
+            "We have a good number of faculty with us .For more details visit https://cse.uap-bd.edu/faculty/faculties_list/",
+            "We have many faculty members with us. To learn more, visit https://cse.uap-bd.edu/faculty/faculties_list/",
+            "We have lots of professors with us. For more information, visit https://cse.uap-bd.edu/faculty/faculties_list/"
+         ]
+      },
+      {
+         "tag":"dept_head",
+         "patterns":[
+            "Who is the department Head ?",
+            "Who's in charge here?",
+            "Who's in charge of the department?",
+            "Who is the head of service?"
+         ],
+         "responses":[
+            "Dr. Md. Rajibul Islam Is the head of deptpartment of Computer Science and Engineering .For more details please visit https://cse.uap-bd.edu/faculty/faculty_details/1"
+         ]
+      },
+      {
+         "tag":"developer",
+         "patterns":[
+            "Who made U-bot ?",
+            "Who built  U-bot?",
+            "Who created  U-bot?",
+            "Who made uap cse chet bot?",
+            "Who are the developer of this chet bot ?",
+            "Who are the developer of u-bot ?"
+         ],
+         "responses":[
+            "It made by Ashraful Haque,Sabbir Hosen ,Mehrab Anin, Shahriar Shafin."
+         ]
+      },
+      {
+         "tag":"goodbye",
+         "patterns":[
+            "Bye",
+            "See you later",
+            "See you later on.",
+            "I'll talk to you later.",
+            "I'll see you in a while.",
+            "See you in a couple of minutes."
+         ],
+         "responses":[
+            "See you later,thanks for visiting",
+            "See you later, thanks for stopping by.",
+            "See you later, thanks for checking in.",
+            "See you later, thanks for taking the time."
+         ]
+      },
+      {
+         "tag":"greeting",
+         "patterns":[
+            "Hey ",
+            "Hi",
+            "Is anyone there ?",
+            "Hello",
+            "Good day"
+         ],
+         "responses":[
+            "Hello,Thank you for knock me :-)",
+            "Hi,there,how can I help you ?",
+            "Hello, how can I assist you?",
+            "Hi, how may I assist you?",
+            "Hello, what can I do to help?"
+         ]
+      },
+      {
+         "tag":"online_admission",
+         "patterns":[
+            "Do the applicants apply for online admission?",
+            "Do applicants make an application online?",
+            "Are candidates submitting an application online?",
+            "Do candidates request admission online?",
+            "Do candidates apply online?"
+         ],
+         "responses":[
+            "Applicants can apply only online for admission (https://admission.uap-bd.edu/Admission/Home.aspx)."
+         ]
+      },
+      {
+         "tag":"semester_timing",
+         "patterns":[
+            "How many semesters are offered yearly at UAP?",
+            "How many semesters are offered annually at UAP?",
+            "How many semesters are offered every year in UAP?",
+            "How many semesters are offered per year to UAP?"
+         ],
+         "responses":[
+            "UAP offers 2 semesters a year: Spring & Fall, and these start in January & July respectively"
+         ]
+      }
+   ]
+}

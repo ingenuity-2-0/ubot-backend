@@ -10,14 +10,16 @@ CORS(app)
 #     return render_template('base.html')
 
 
-@app.route('/predict/<string:text>')
+@app.route('/chat/<string:text>')
 def predict(text):
     # text = request.get_json().get('message')
     print(text)
     response = get_response(text)
-    message = {'response': response}
+    message = [{'conversation': response}]
     return jsonify(message)
+    # return response
 
 
 if __name__ == '__main__':
+    # app.run(debug=True, host='192.168.84.134', port='8080')
     app.run(debug=True)

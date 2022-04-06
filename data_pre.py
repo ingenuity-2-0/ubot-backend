@@ -1,12 +1,13 @@
 import numpy as np
 import json
-from data_nltk import bag_of_words, tokenize, stem
+from data_nltk import bag_of_words, tokenize, stem, lem
 import torch
 import torch.nn as nn
 from torch.utils.data import Dataset, DataLoader
 from model import NeuralNet
+from nltk.corpus import stopwords
 
-with open('intents.json', 'r') as f:
+with open('sample.json', 'r') as f:
     intents = json.load(f)
 
 all_words = []
@@ -27,7 +28,10 @@ for intent in intents['intents']:
 
 # stem and lower each word
 ignore_words = ['?', '.', '!']
-all_words = [stem(w) for w in all_words if w not in ignore_words]
+# all_words = [stem(w) for w in all_words if w not in ignore_words]
+# all_words = [lem(w) for w in all_words if w not in ignore_words]
+all_words = [lem(w) for w in all_words if w not in set(stopwords.words('english')) and w not in ignore_words]
+# print('stop words', stopwords.words('english'))
 # remove duplicates and sort
 all_words = sorted(set(all_words))
 tags = sorted(set(tags))
@@ -109,7 +113,7 @@ for epoch in range(num_epochs):
         optimizer.step()
 
     if (epoch + 1) % 100 == 0:
-        print(f'Epoch [{epoch + 1}/{num_epochs}], Loss: {loss.item():.4f}')
+        print(f'Epoch [{epoch + 1}/{num_epochs}], Loss: {loss.item()}')
 
 print(f'final loss: {loss.item():.4f}')
 
@@ -122,7 +126,7 @@ data = {
     "tags": tags
 }
 
-FILE = "data.pth"
+FILE = "datas.pth"
 torch.save(data, FILE)
 
 print(f'training complete. file saved to {FILE}')
