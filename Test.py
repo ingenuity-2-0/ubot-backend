@@ -1,4 +1,3 @@
-import nltk
-from nltk.corpus import stopwords
-
-print(stopwords.words('bengali'))
+a = 5.364409503272327e-07
+b = 0.11612856388092041
+print(a-b)

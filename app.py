@@ -5,16 +5,13 @@ from chat import get_response
 app = Flask(__name__)
 CORS(app)
 
-# @app.get('/')
-# def index_get():
-#     return render_template('base.html')
-
 
 @app.route('/chat/<string:text>')
 def predict(text):
     # text = request.get_json().get('message')
-    print(text)
+    print('input: ', text)
     response = get_response(text)
+    print('response: ', response)
     message = [{'conversation': response}]
     return jsonify(message)
     # return response
